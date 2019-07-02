@@ -30,7 +30,7 @@ class Projects extends React.Component{
 				<h1>Projects</h1>
 					<Container>
 						<Row>
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 								
 								<Link to='/projects/plant'>
 								<div className='projectIcon'>
@@ -44,7 +44,7 @@ class Projects extends React.Component{
 								</div>
 								
 							</Col>
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 							
 							<Link to='/projects/theblog'>
 							<div className='projectIcon'>
@@ -58,7 +58,7 @@ class Projects extends React.Component{
 								</div>
 					
 							</Col>
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 							
 							<Link to='/projects/thefilmdb'>
 							<div className='projectIcon'>
@@ -74,7 +74,7 @@ class Projects extends React.Component{
 						
 							</Col>
 					
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 							
 							<Link to='/projects/restaurant-roulette'> 
 							<div className='projectIcon'>
@@ -89,7 +89,7 @@ class Projects extends React.Component{
 								</div>
 						
 							</Col>
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 							
 							<Link to='/projects/photo-portfolio'>
 							<div className='projectIcon'>
@@ -104,7 +104,7 @@ class Projects extends React.Component{
 								</div>
 								
 							</Col>
-							<Col md lg={4} className='colMargin'>
+							<Col md lg={4} xl={4} className='colMargin'>
 							
 							<Link to='/projects/goldenhour'>
 							<div className='projectIcon'>

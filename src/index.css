@@ -232,4 +232,22 @@ a {
 
 }
 
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+	.homeBody{
+		height: 20vh;
+	}
+
+	.columnRight{
+		padding-bottom: 60vh;
+	}
+
+}
+
+
 
