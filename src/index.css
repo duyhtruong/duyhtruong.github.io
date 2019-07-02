@@ -42,6 +42,7 @@
 .columnRight{
 	text-align: center;
 	padding-top: 5vh;
+	padding-bottom: 50vh;
 }
 
 .innerColumnRight {
@@ -194,6 +195,7 @@ a {
 	font-size: 4vw;
 	font-weight: 400;
 	text-align: center;
+	
 }
 
 .projectsBody h1 {
