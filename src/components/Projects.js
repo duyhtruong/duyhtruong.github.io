@@ -1,5 +1,4 @@
 import React from 'react';
-import RenderColumns from './RenderColumns';
 
 import { Link } from 'react-router-dom';
 
@@ -20,7 +19,7 @@ class Projects extends React.Component{
 	renderBadge(techs){
 		return (
 			techs.map(tech=>
-				<Badge key={tech} variant='dark' className='projectsTechBadge'>{tech}</Badge>
+				<Badge key={tech} variant='light' className='projectsTechBadge'>{tech}</Badge>
 			)
 		)
 	}
@@ -33,91 +32,92 @@ class Projects extends React.Component{
 						<Row>
 							<Col sm className='colMargin'>
 								
-								<Link to='/projects/plant'><div className='projectIcon'>
-								<img alt='logo' src={require('../assets/plant/logo.png')} />
-								</div></Link>
-								<div className='projectLogoItems'>
-								<h5>Plant Feedr</h5>
-								<p className='projectLogoDescription'>Keep your plants alive with this fullstack
-								water reminder application
-								</p>
+								<Link to='/projects/plant'>
+								<div className='projectIcon'>
+									<img className='projectLogoSize' alt='logo' src={require('../assets/plant/logo.png')} />
+								</div>
+								
+								</Link>
+							
 								<div>
 									{this.renderBadge(['React','Redux','Node','MongoDB'])}
 								</div>
-								</div>
+								
 							</Col>
 							<Col sm className='colMargin'>
 							
-							<Link to='/projects/theblog'><div className='projectIcon'></div></Link>
-							<div className='projectLogoItems'>
-								<h5>The Blog</h5>
-								<p className='projectLogoDescription'>
-									Personal blog with React front-end powered by Contentful
-									</p>
+							<Link to='/projects/theblog'>
+							<div className='projectIcon'>
+								<img className='projectLogoSize' alt='logo' src={require('../assets/theblog/logo.png')} />
+							</div>
+					
+							</Link>
+							
 								<div> 
 								{this.renderBadge(['React','Redux','CSS','Contentful'])}
 								</div>
-								</div>
+					
 							</Col>
 							<Col sm className='colMargin'>
 							
-							<Link to='/projects/thefilmdb'><div className='projectIcon'>
-							<img alt='logo' src={require('../assets/thefilmdb/logo.png')} />
-							</div></Link>
-							<div className='projectLogoItems'>
-								<h5>The FilmDB</h5> 
-								<p className='projectLogoDescription'>
-								Learn about your favorite movies with this movie database web app 
-								</p>
+							<Link to='/projects/thefilmdb'>
+							<div className='projectIcon'>
+							<img className='projectLogoSize' alt='logo' src={require('../assets/thefilmdb/logo.png')} />
+							</div>
+							
+							</Link>
+					
+
 								<div>
 									{this.renderBadge(['React','Redux','CSS','Semantic UI'])}
 								</div>
-								</div>
+						
 							</Col>
-						</Row>
-						<Row>
+					
 							<Col sm className='colMargin'>
 							
-							<Link to='/projects/restaurant-roulette'> <div className='projectIcon'>
-							<img alt='logo' src={require('../assets/restaurant-roulette/logo.png')} />
-							</div></Link>
-							<div className='projectLogoItems'>
-								 <h5>Restaurant Roulette</h5>
-								 <p className='projectLogoDescription'>
-								Find nearby restaurants with this random restaurant generator
-								</p>
+							<Link to='/projects/restaurant-roulette'> 
+							<div className='projectIcon'>
+							<img className='projectLogoSize' alt='logo' src={require('../assets/restaurant-roulette/logo.png')} />
+							</div>
+				
+							</Link>
+							
+					
 								<div>
 									{this.renderBadge(['JavaScript','HTML','CSS'])}
 								</div>
-								</div>
+						
 							</Col>
 							<Col sm className='colMargin'>
 							
-							<Link to='/projects/photo-portfolio'><div className='projectIcon'></div></Link>
-							<div className='projectLogoItems'>
-								 <h5>Photo Portfolio</h5>
-								 <p className='projectLogoDescription'>
-								Web page created to showcase personal photography
-								</p>
+							<Link to='/projects/photo-portfolio'>
+							<div className='projectIcon'>
+							<img className='projectLogoSize' alt='logo' src={require('../assets/photo-portfolio/logo.png')} />
+							</div>
+						
+							</Link>
+							
+				
 								<div>
 									{this.renderBadge(['HTML','CSS/Less','Bootstrap','jQuery'])}
 								</div>
-								</div>
+								
 							</Col>
 							<Col sm className='colMargin'>
 							
-							<Link to='/projects/goldenhour'><div className='projectIcon'>
-							<img alt='logo' src={require('../assets/golden-hour/logo.png')} />
-							</div></Link>
-							<div className='projectLogoItems'>
-								<h5>Golden Hour</h5>
-								<p className='projectLogoDescription'>
-								Calculate golden hour with this photography tool
-								</p>
+							<Link to='/projects/goldenhour'>
+							<div className='projectIcon'>
+							<img className='projectLogoSize' alt='logo' src={require('../assets/golden-hour/logo.png')} />
+							</div>
+						
+							</Link>
+							
+				
 								<div>
 									{this.renderBadge(['JavaScript','HTML','CSS'])}
 								</div>
-								</div>
+								
 							</Col>
 						</Row>
 					</Container>

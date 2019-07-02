@@ -13,7 +13,6 @@ class Navigation extends React.Component{
 		return(
 		<ul>
 			<li><Link to='/'>Home</Link></li>
-			<li><Link to ='/projects'>Projects</Link></li>
 			<li><Link to ='https://www.linkedin.com/in/duy-truong-3224a6119'>LinkedIn</Link></li>
 			<li><Link to ='https://github.com/duyhtruong'>Github</Link></li>	
 			<li><Link to ='mailto:duytruongh@gmail.com'>Email</Link></li>	
@@ -34,7 +33,6 @@ class Navigation extends React.Component{
 					    <LinkContainer  to="/"><Nav.Item className='navLink' as ="li">Home</Nav.Item></LinkContainer>
 					
 					  
-					    <LinkContainer to='/projects/'><Nav.Item className='navLink' as="li">Projects </Nav.Item></LinkContainer>
 					   	 
 
 					  	<Nav.Item as="li">
@@ -70,7 +68,7 @@ class Navigation extends React.Component{
 					    <LinkContainer to="/"><Nav.Item as="li">Home </Nav.Item></LinkContainer>
 					 
 					
-					    <LinkContainer to='/projects'><Nav.Item as="li">Projects </Nav.Item></LinkContainer>
+					    
 					
 					  	<Nav.Item as="li">
 					  		<Nav.Link target="_blank" href='https://www.linkedin.com/in/duy-truong-3224a6119'>LinkedIn</Nav.Link>

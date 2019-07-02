@@ -34,7 +34,7 @@ class Plant extends React.Component{
 				<h1>Plant Feedr</h1>	
 				{this.renderBadge()}
 
-				<ProjectButton live='https://www.bit.ly/2DNLKGX' repo='https://www.bit.ly/2PGkiRO' />
+				<ProjectButton live='https://bit.ly/2JdLjWM' repo='https://bit.ly/2ZYDGtS' />
 
 				<div className='innerColumnRight'>
 					<p>

@@ -86,7 +86,7 @@ a {
 	font-size: 1.4vw;
 	font-weight: 400;
 	text-align: left;
-	height: 80vh;
+	height: 50vh;
 }
 
 .homeBody h1 {
@@ -100,7 +100,7 @@ a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.4vw;
 	font-weight: 400;
-	text-align: left;
+	text-align: center;
 }
 
 .projectsBody h1 {
@@ -129,12 +129,7 @@ a {
 	display: block;
 }
 
-.projectIcon{
-	width: 250px;
-	height: 250px;
-	background:linear-gradient(135deg, #CE9FFC 0%,#7367F0 100%);
-	margin-bottom: 0.5em;
-}
+
 
 .projectsTechBadge{
 	margin-right: 0.25em;
@@ -144,14 +139,11 @@ a {
 .colMargin{
 	margin-bottom: 1.5em;
 
-
 }
 
 .projectLogoItems{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	height: 140px;
 }
 
 .projectLogoDescription{
@@ -160,6 +152,12 @@ a {
 	font-size: 0.8em;
 }
 
+.projectLogoSize{
+	height: 200px;
+	width: 200px;
+	margin-bottom: 0.5em;
+	
+}
 
 @media only screen 
   and (max-device-width: 768px) 
@@ -195,7 +193,7 @@ a {
 	font-family: 'Roboto', sans-serif;
 	font-size: 4vw;
 	font-weight: 400;
-	text-align: left;
+	text-align: center;
 }
 
 .projectsBody h1 {
@@ -224,6 +222,11 @@ a {
  	text-align: left;
  	font-size: 3.5vw;
  }
+
+ .homeBody {
+	height: 60vh;
+}
+
 
 }
 

@@ -15,8 +15,8 @@ class Home extends React.Component{
 					I work in Research and Development at a Biotech start-up in Palo Alto.
 					<br/>
 					<br />
-					I write code in HTML, CSS, JavaScript, jQuery, Bootstrap, React, and Redux. 
-					I design with Photoshop.
+					I write code in HTML, CSS, JavaScript, jQuery, Bootstrap, React, Redux, Node, and MongoDB. 
+					I design with Photoshop and Lightroom.
 					<br />
 					<br />
 					Currently looking for opportunities in Web Development.
