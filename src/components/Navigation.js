@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { LinkContainer } from 'react-router-bootstrap';
 
-import pdf from '../assets/DuyTruongResume2019.pdf';
+import pdf from '../assets/DuyTruongResume.pdf';
 class Navigation extends React.Component{
 	
 	renderNav(){
